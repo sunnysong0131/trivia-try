@@ -1,0 +1,82 @@
+body {
+    background-image: url(../images/game_background.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    -webkit-background-size: cover !important;
+    -moz-background-size: cover !important;
+    -o-background-size: cover !important;
+    background-size: cover !important;
+}
+h1 {
+    font-family: 'Lobster', cursive;
+    font-weight: bold;
+    font-size: 50px;
+    color: #FFA500;
+    text-shadow:2px 2px 2px black;
+}
+.blue{
+    color: #402364;
+    text-shadow:none;
+ 
+     font-family: 'Lobster', cursive;
+}
+.box {
+    margin: auto;
+    width: 50%;
+    padding: 40px;
+    background-position: center;
+    text-align: center;
+    background-image: url(../images/textbackground.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    border-radius: 25px;
+    height: 400px;
+    font-size: 30px;
+    color: black;
+   
+}
+.box p{
+    color: #FFA500;
+    font-size:3rem;
+     font-family: 'Indie Flower', cursive;
+}
+}
+.margin-top-style{
+    margin-top: 45px;
+}
+/*RESPONSIVE CSS*/
+@media (max-width: 1150px) {
+  .box p{
+    font-size:2.2rem;
+    margin:10px;
+  }
+    .box p:nth-child(1){
+    
+    margin-top: 32px;
+  }
+}
+@media (max-width: 890px) {
+  .box p{
+    font-size:2rem;
+    margin:10px;
+  }
+    .box p:nth-child(1){
+    
+    margin-top: 44px;
+  }
+}
+@media (max-width: 850px) {
+  .box p{
+    font-size:11.9rem;
+    margin:10px;
+  }
+    .box p:nth-child(1){
+    
+    margin-top: 50px;
+  }
+}
+
+
+
+
+
